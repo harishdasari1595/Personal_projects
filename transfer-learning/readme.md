@@ -8,8 +8,8 @@
 
 #### In case if you want to skip reading the blog you can follow these steps:
 1. First clone or download this repo into you local directory.
-2. Unzip the dataset which is the animals dataset or create your own dataset but please do not change the directory structure.
-3. First run the feature_extractor.py script for extracting the features from the target dataset.
-..* Usage: "python feature_extractor.py -d "path to the target dataset" -o "path for storing the creating the extracted feature file in hdf5 format"". 
-4. After extracting the features now run the training.py script for training the image classifier.
-..* Usage: "python training.py -d path for acessing the features.hdf5 file -m "path for storing the model pickle file""
+2. create your own dataset by downloading and placing into the Dataset **folder** but please do not change the directory structure.
+3. First run the **_feature_extractor.py_** script for extracting the features from the target dataset.
+..* Usage: **"python feature_extractor.py -d "path to the target dataset" -o "path for storing the creating the extracted feature file in hdf5 format**"". 
+4. After extracting the features now run the **training.py** script for training the image classifier.
+..* Usage: **"python training.py -d path for acessing the features.hdf5 file -m "path for storing the model pickle file**""
